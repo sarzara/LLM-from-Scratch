@@ -13,7 +13,6 @@ This repository documents my complete journey learning how LLM works, built from
 | 03 | [Attention Mechanism](./03_attention/) | Q, K, V, softmax, self-attention | Done  |
 | 04 | [mini-GPT](./04_mini_GPT/) | transformer, text generation | Done  |
 | 05 | [HuggingFace & GPT2](./05_hugging_face/) | pipeline, fine-tuning, real LLM | Done |
-| 06 | [Finance NLP](./06_financial_nlp/) | stance detection, zero/few-shot, CoT | In progress  |
 
 ---
 
@@ -29,8 +28,6 @@ This repository documents my complete journey learning how LLM works, built from
 - GPT2 text generation using HuggingFace Transformers
 - Fine-tuned GPT2 on custom data
 - A chatbot with conversation memory
-- Reproduced a research paper on financial stance detection (87.5% accuracy)
-
 ---
 
 ## Key Results
@@ -40,15 +37,13 @@ This repository documents my complete journey learning how LLM works, built from
 | XOR Neural Network | 100% accuracy ✓ |
 | mini-GPT text generation | Coherent text ✓ |
 | GPT2 fine-tuning | Loss: 2.78 after 3 epochs ✓ |
-| Financial stance detection | 87.5% accuracy ✓ |
-
 ---
 
 ## Tech Stack
 
 ```
 Python · NumPy · PyTorch · HuggingFace Transformers
-Sentence-BERT · scikit-learn · Google Colab
+scikit-learn · Google Colab
 ```
 
 ---
@@ -81,7 +76,6 @@ llm-from-scratch/
 ├── 03_attention/           # The heart of all LLMs
 ├── 04_mini_gpt/            # Build GPT from scratch
 ├── 05_huggingface/         # Real GPT2 with HuggingFace
-└── 06_finance_nlp/         # LLMs for financial text
 ```
 
 ---
