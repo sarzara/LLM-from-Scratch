@@ -55,4 +55,4 @@ Click `05_huggingface.ipynb` → Open in Colab → Run All
 *Note: First run downloads GPT-2 (~500MB), cached after that.*
 
 ---
-**Previous:** [04 mini-GPT](../04_mini_gpt/) | **Next:** [06 Finance NLP](../06_finance_nlp/)
+**Previous:** [04 mini-GPT](../04_mini_gpt/)
